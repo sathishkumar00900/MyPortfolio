@@ -163,6 +163,13 @@ header nav a:hover{
 .proj a{
     font-weight: bolder;
 }
+.proj img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 12px;
+  display: block;
+}
 .proj p{
     line-height: 1.8;       
     word-spacing: 3px;      
