@@ -219,6 +219,79 @@ header nav a:hover{
     background-color: #1f22e0;
 }
 
+@media (max-width: 600px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding: 20px;
+  }
+
+  header nav {
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .personal-info {
+    padding: 15px;
+    text-align: center;
+  }
+
+  .personal-info h1 {
+    font-size: 28px;
+  }
+
+  .personal-info p br {
+    display: none;
+  }
+
+  .btn {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .btn a {
+    text-align: center;
+  }
+
+  .aboutus,
+  .skills,
+  .projects {
+    padding: 15px;
+  }
+
+  .skill {
+    justify-content: center;
+    gap: 12px;
+  }
+
+  .sk {
+    width: 80px;
+  }
+
+  .gridprojects {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-us {
+    padding: 40px 20px;
+  }
+
+  .email,
+  .phno {
+    min-width: 100%;
+    width: 100%;
+    padding: 15px;
+  }
+
+  footer {
+    padding: 0 15px;
+  }
+}
+
+
 footer{
     margin-top: 20px;
     text-align: center;
