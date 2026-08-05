@@ -96,6 +96,7 @@ header nav a:hover{
     padding-bottom:10px;
     border-radius: 9px;
     background-color: aqua;
+    text-align:center;
 }
 .ab:hover{
     background-color: rgba(3, 152, 245, 0.897);
